@@ -4,15 +4,37 @@
 
 这项 Codex 技能也支持扫描数据和已有模型，可交付可编辑模型或 three.js 交互场景。视频镜头由 Blender 渲染，使用 Remotion 剪辑合成。
 
-## 南京眼步行桥
+## 使用方法
 
-桥体依据岸侧、桥面和江心洲方向的实拍影像及公开工程尺寸重建。短片以岛端弯引桥、桥面穿塔和江上双塔三个视角展示桥梁的空间关系，江岸与植被作为示意配景。成片时长 24 秒，原片规格为 1920 × 1080、24 帧/秒。
+### 安装
 
-https://github.com/user-attachments/assets/78ef3bd7-49eb-4530-81f8-890fb0fdd9d0
+在 Codex 中输入：
 
-[下载 1080p 原片](https://github.com/Yxywindows/dsm-to-threejs/releases/download/v1.0.0/nanjing-eye-1080p.mp4) · [实拍与模型的三视角对照](docs/examples/nanjing-eye/three-views.jpg)
+> 用 skill-installer 从 GitHub 安装 Yxywindows/dsm-to-threejs 仓库的 skills/dsm-to-threejs 目录。
 
-## 直接建模后的三项校核
+安装完成后重启 Codex 以加载技能。使用仓库里的[技能目录](skills/dsm-to-threejs/SKILL.md)可以直接查看完整工作流。
+
+### 在 Codex 中描述任务
+
+> 用 $dsm-to-threejs 查找南京眼步行桥的多视角实拍图，对照原图重建桥塔、桥面和引桥，生成一支 24 秒的横屏展示视频。
+
+也可以按已有素材和交付目标单独使用其中一项功能。
+
+- **从实拍建模**：「用 $dsm-to-threejs 根据这组三视角照片重建步行桥。先判断双塔、拉索与桥面之间的位置关系，再选机位与原图核对。」
+- **从模型拍片**：「用 $dsm-to-threejs 把这个 Blender 场景拍成 20 秒竖屏宣传片。用 Remotion，从街道推进到建筑入口，最后交付 MP4 和可编辑工程。」
+- **交互展示**：「把这个 GLB 做成可旋转、缩放的 three.js 网页，并检查它在浏览器里的材质和构图。」
+
+### 视频制作与导出
+
+先用目标画幅试拍，再从源场景渲染镜头。镜头顺序、取用帧数、标题与可选配乐都可在 Remotion 工程中调整。导出后，可以对实际解码帧、画幅、时序和声音做检查，再用联系表复核主体与字幕。只有选择视频路线才需要视频工具。[成片指南](skills/dsm-to-threejs/references/scene-film.md) · [Remotion 模板](skills/dsm-to-threejs/assets/remotion-starter/README.md)
+
+## 使用案例 · 南京眼步行桥
+
+桥体依据岸侧、桥面和江心洲方向的实拍影像及公开工程尺寸重建。下图左列为现场照片，右列为模型在近似对应机位的渲染。岸侧视角用于观察双塔倾向和索面布置，桥面视角用于观察近塔与远塔的套叠关系，航拍视角用于辨认岛端引桥的转向。江岸与植被作为示意配景。
+
+![南京眼步行桥三视角对照。左列为岸侧、桥面与江心洲方向的实拍，右列为同一模型在对应视角的渲染。](docs/examples/nanjing-eye/three-views.jpg)
+
+[实拍来源、摄影署名与许可](docs/examples/nanjing-eye/credits.md)
 
 依据参考照片和工程尺寸可以建立初始几何。使用本技能后，建模者还能把具体疑点转化为可重复的检查。先在同一估计机位下，将模型轮廓投影回照片以定位偏差，再从交付文件中读取几何，验证构件之间的连接。下列结果来自南京眼同一次重建的初版与修订版，未设置独立的无技能对照组。
 
@@ -32,22 +54,14 @@ https://github.com/user-attachments/assets/78ef3bd7-49eb-4530-81f8-890fb0fdd9d0
 
 从最终 GLB 读取 36 根斜拉索的端部几何，按所属桥塔和桥面侧别分别核对。36 根索的上端均进入对应塔体，下端均接入同侧桥缘。这项检查回答了仅凭单幅渲染难以判定的问题，即画面中重叠的构件在三维空间里是否相接。
 
-三项校核分别针对局部形状、整体布局和构件连接。参考照片、测量位置和逐点数据可供后续版本沿用，使每次修改都能按同一口径复查。[照片来源、署名与许可](docs/examples/nanjing-eye/credits.md)
+三项校核分别针对局部形状、整体布局和构件连接。参考照片、测量位置和逐点数据可供后续版本沿用，使每次修改都能按同一口径复查。
 
-## 安装
+<a name="南京眼步行桥"></a>
 
-在 Codex 中输入：
+## 成果视频
 
-> 用 skill-installer 从 GitHub 安装 Yxywindows/dsm-to-threejs 仓库的 skills/dsm-to-threejs 目录。
+镜头从江心洲弯引桥切入，沿桥面穿过近侧环塔，最后从江上回看双塔与索面。原片为 24 秒，1920 × 1080，24 帧/秒。
 
-安装完成后重启 Codex 以加载技能。使用仓库里的[技能目录](skills/dsm-to-threejs/SKILL.md)可以直接查看完整工作流。
+https://github.com/user-attachments/assets/78ef3bd7-49eb-4530-81f8-890fb0fdd9d0
 
-## 使用示例
-
-- **从实拍建模**：「用 $dsm-to-threejs 根据这组三视角照片重建步行桥。先判断双塔、拉索与桥面之间的位置关系，再选机位与原图核对。」
-- **从模型拍片**：「用 $dsm-to-threejs 把这个 Blender 场景拍成 20 秒竖屏宣传片。用 Remotion，从街道推进到建筑入口，最后交付 MP4 和可编辑工程。」
-- **交互展示**：「把这个 GLB 做成可旋转、缩放的 three.js 网页，并检查它在浏览器里的材质和构图。」
-
-## 成片流程
-
-先用目标画幅试拍，再从源场景渲染镜头。镜头顺序、取用帧数、标题与可选配乐都可在 Remotion 工程中调整。导出后，可以对实际解码帧、画幅、时序和声音做检查，再用联系表复核主体与字幕。只有选择视频路线才需要视频工具。[成片指南](skills/dsm-to-threejs/references/scene-film.md) · [Remotion 模板](skills/dsm-to-threejs/assets/remotion-starter/README.md)
+[下载 1080p 原片](https://github.com/Yxywindows/dsm-to-threejs/releases/download/v1.0.0/nanjing-eye-1080p.mp4)
