@@ -1,0 +1,47 @@
+{
+  "opencv_version": "5.0.0",
+  "seconds": 0.4808383750205394,
+  "features": {
+    "deck": 1276,
+    "bank": 2115,
+    "air": 4336
+  },
+  "pairs": [
+    {
+      "pair": [
+        "deck",
+        "bank"
+      ],
+      "mutual_ratio_matches": 8,
+      "verified_pairs": 0,
+      "points": []
+    },
+    {
+      "pair": [
+        "deck",
+        "air"
+      ],
+      "mutual_ratio_matches": 10,
+      "verified_pairs": 0,
+      "points": []
+    },
+    {
+      "pair": [
+        "bank",
+        "air"
+      ],
+      "mutual_ratio_matches": 8,
+      "verified_pairs": 0,
+      "points": []
+    }
+  ],
+  "parameters": {
+    "descriptor": "SIFT",
+    "ratio_strictly_below": 0.75,
+    "bidirectional": true,
+    "positive_depth_in_both_views": true,
+    "minimum_ray_angle_deg": 1.0,
+    "max_reprojection_px_per_view": 2.0,
+    "opencv_threads": 1
+  }
+}

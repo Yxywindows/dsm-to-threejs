@@ -1,0 +1,3297 @@
+{
+  "classical": {
+    "final_sha256": "7abfae8a6db2a48de228f4713bf90be01ea45a465e5794bbd90263bb6605c778",
+    "candidates": [
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.6670046377709964,
+          "max": 7.0,
+          "values": [
+            2.82843,
+            1.0,
+            1.0,
+            2.0,
+            0.0,
+            2.23607,
+            4.0,
+            3.0,
+            3.60555,
+            7.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 439,
+            "right": 574,
+            "absolute_errors": [
+              1.8665931642778446,
+              0.3285556780595016
+            ]
+          },
+          {
+            "y": 286,
+            "left": 422,
+            "right": 594,
+            "absolute_errors": [
+              2.8599779492833477,
+              0.8401323042999138
+            ]
+          },
+          {
+            "y": 402,
+            "left": 402,
+            "right": 621,
+            "absolute_errors": [
+              2.9702315325247923,
+              1.8158765159868153
+            ]
+          },
+          {
+            "y": 191,
+            "left": 467,
+            "right": 542,
+            "absolute_errors": [
+              4.00330760749722,
+              4.315325248070508
+            ]
+          },
+          {
+            "y": 265,
+            "left": 428,
+            "right": 587,
+            "absolute_errors": [
+              1.4509371554575523,
+              0.6273428886438523
+            ]
+          },
+          {
+            "y": 318,
+            "left": 414,
+            "right": 605,
+            "absolute_errors": [
+              2.269018743109143,
+              1.69239250275632
+            ]
+          },
+          {
+            "y": 375,
+            "left": 405,
+            "right": 618,
+            "absolute_errors": [
+              1.7364939360529092,
+              0.9327453142227569
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 1.2989499628748211,
+          "max": 4.47213595499958,
+          "values": [
+            1.0,
+            1.0,
+            0.0,
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            4.47214,
+            1.41421,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 1.0671648984988444,
+          "max": 4.123105625617661,
+          "values": [
+            1.0,
+            0.0,
+            1.41421,
+            1.0,
+            0.0,
+            0.0,
+            4.12311,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 2.273790373846296,
+          "max": 7.4409472936314245,
+          "values": [
+            1.39333,
+            2.04674,
+            1.88156,
+            1.60092,
+            4.54963,
+            7.44095,
+            3.71211,
+            2.46716,
+            2.73329,
+            2.1578,
+            0.29217,
+            0.9253,
+            0.08873,
+            0.5434
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 1.6804424220346257,
+          "max": 7.0,
+          "values": [
+            2.82843,
+            1.0,
+            1.0,
+            2.0,
+            0.0,
+            2.23607,
+            4.0,
+            3.0,
+            3.60555,
+            7.0,
+            1.0,
+            1.0,
+            0.0,
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            4.47214,
+            1.41421,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.41421,
+            1.0,
+            0.0,
+            0.0,
+            4.12311,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 1.979209324303034,
+          "max": 4.315325248070508,
+          "values": [
+            1.86659,
+            0.32856,
+            2.85998,
+            0.84013,
+            2.97023,
+            1.81588,
+            4.00331,
+            4.31533,
+            1.45094,
+            0.62734,
+            2.26902,
+            1.69239,
+            1.73649,
+            0.93275
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 529.8873104213108,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 529.8873104213108,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 972,
+            "triangles": 1940,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11226.754145966896,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      }
+    ],
+    "first_glb_s": 93.39193868637085,
+    "frozen_s": 107.41880178451538,
+    "replay_seconds": [
+      0.3472959999926388,
+      0.316085792001104,
+      0.3441249580064323
+    ],
+    "intersections": {
+      "IslandRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "HexiRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "Deck": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      }
+    },
+    "native_qa": {
+      "ok": true,
+      "pass": false,
+      "errors": [
+        "floating/detached part in IslandRing (1024 verts at [149.759, 0.0, 39.0])",
+        "floating/detached part in HexiRing (1024 verts at [-149.759, 0.0, 39.0])"
+      ],
+      "warnings": [
+        "asset lowest point z=-3.6434 (not resting on ground plane z=0)"
+      ],
+      "ground_z": -3.6434,
+      "zfighting": [],
+      "floating": [
+        {
+          "object": "IslandRing",
+          "island_verts": 1024,
+          "center": [
+            149.759,
+            0.0,
+            39.0
+          ]
+        },
+        {
+          "object": "HexiRing",
+          "island_verts": 1024,
+          "center": [
+            -149.759,
+            0.0,
+            39.0
+          ]
+        }
+      ],
+      "back_to_back": [],
+      "enclosed": [],
+      "objects": {
+        "IslandRing": {
+          "verts": 1024,
+          "faces": 2048,
+          "tris": 2048,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "HexiRing": {
+          "verts": 1024,
+          "faces": 2048,
+          "tris": 2048,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "Deck": {
+          "verts": 972,
+          "faces": 1940,
+          "tris": 1940,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        }
+      }
+    }
+  },
+  "plain1": {
+    "final_sha256": "9342eaa2bd983956b96b97eed0721493efa4da57e00424d63af64805c481579f",
+    "candidates": [
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.3898397883100384,
+          "max": 5.385164807134504,
+          "values": [
+            1.41421,
+            0.0,
+            1.0,
+            5.09902,
+            5.38516,
+            3.0,
+            1.0,
+            0.0,
+            2.0,
+            5.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 442,
+            "right": 567,
+            "absolute_errors": [
+              4.866593164277845,
+              6.671444321940498
+            ]
+          },
+          {
+            "y": 286,
+            "left": 423,
+            "right": 589,
+            "absolute_errors": [
+              3.8599779492833477,
+              5.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 400,
+            "right": 620,
+            "absolute_errors": [
+              0.9702315325247923,
+              0.8158765159868153
+            ]
+          },
+          {
+            "y": 191,
+            "left": 474,
+            "right": 531,
+            "absolute_errors": [
+              2.99669239250278,
+              6.684674751929492
+            ]
+          },
+          {
+            "y": 265,
+            "left": 430,
+            "right": 581,
+            "absolute_errors": [
+              3.4509371554575523,
+              5.372657111356148
+            ]
+          },
+          {
+            "y": 318,
+            "left": 414,
+            "right": 600,
+            "absolute_errors": [
+              2.269018743109143,
+              3.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 403,
+            "right": 615,
+            "absolute_errors": [
+              0.26350606394709075,
+              2.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 5.315141429033994,
+          "max": 10.770329614269007,
+          "values": [
+            4.0,
+            4.0,
+            5.83095,
+            8.94427,
+            9.43398,
+            10.77033,
+            2.23607,
+            2.82843,
+            7.28011,
+            2.82843,
+            0.0,
+            8.94427,
+            2.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 1.4785533905932737,
+          "max": 2.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.41421,
+            2.0,
+            2.0,
+            1.41421,
+            2.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6296495018594095,
+          "max": 3.0489585461716917,
+          "values": [
+            2.37776,
+            3.04896,
+            2.17681,
+            1.23396,
+            2.98766,
+            0.88127,
+            1.37023,
+            0.64612,
+            1.22014,
+            1.298,
+            2.32895,
+            1.28892,
+            0.66558,
+            1.29072
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 3.381408502751241,
+          "max": 10.770329614269007,
+          "values": [
+            1.41421,
+            0.0,
+            1.0,
+            5.09902,
+            5.38516,
+            3.0,
+            1.0,
+            0.0,
+            2.0,
+            5.0,
+            4.0,
+            4.0,
+            5.83095,
+            8.94427,
+            9.43398,
+            10.77033,
+            2.23607,
+            2.82843,
+            7.28011,
+            2.82843,
+            0.0,
+            8.94427,
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.41421,
+            2.0,
+            2.0,
+            1.41421,
+            2.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 3.531186013545453,
+          "max": 6.684674751929492,
+          "values": [
+            4.86659,
+            6.67144,
+            3.85998,
+            5.84013,
+            0.97023,
+            0.81588,
+            2.99669,
+            6.68467,
+            3.45094,
+            5.37266,
+            2.26902,
+            3.30761,
+            0.26351,
+            2.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 2880,
+            "triangles": 5760,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 4848.874728870462,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 2880,
+            "triangles": 5760,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 4848.874728870462,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1332,
+            "triangles": 2660,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11910.861380557733,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      },
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.8225632993752963,
+          "max": 7.0,
+          "values": [
+            1.41421,
+            1.0,
+            2.0,
+            7.0,
+            4.12311,
+            2.0,
+            1.0,
+            0.0,
+            3.60555,
+            6.08276
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 438,
+            "right": 573,
+            "absolute_errors": [
+              0.8665931642778446,
+              0.6714443219404984
+            ]
+          },
+          {
+            "y": 286,
+            "left": 420,
+            "right": 593,
+            "absolute_errors": [
+              0.8599779492833477,
+              1.8401323042999138
+            ]
+          },
+          {
+            "y": 402,
+            "left": 399,
+            "right": 621,
+            "absolute_errors": [
+              0.02976846747520767,
+              1.8158765159868153
+            ]
+          },
+          {
+            "y": 191,
+            "left": 471,
+            "right": 537,
+            "absolute_errors": [
+              0.003307607497220033,
+              0.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 427,
+            "right": 585,
+            "absolute_errors": [
+              0.4509371554575523,
+              1.3726571113561477
+            ]
+          },
+          {
+            "y": 318,
+            "left": 413,
+            "right": 603,
+            "absolute_errors": [
+              1.269018743109143,
+              0.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 403,
+            "right": 616,
+            "absolute_errors": [
+              0.26350606394709075,
+              1.0672546857772431
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 2.563020382407819,
+          "max": 8.06225774829855,
+          "values": [
+            1.41421,
+            1.0,
+            1.41421,
+            3.16228,
+            2.82843,
+            3.60555,
+            2.23607,
+            3.16228,
+            8.06226,
+            3.60555,
+            1.41421,
+            1.41421,
+            0.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 0.875,
+          "max": 2.0,
+          "values": [
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6296495018594095,
+          "max": 3.0489585461716917,
+          "values": [
+            2.37776,
+            3.04896,
+            2.17681,
+            1.23396,
+            2.98766,
+            0.88127,
+            1.37023,
+            0.64612,
+            1.22014,
+            1.298,
+            2.32895,
+            1.28892,
+            0.66558,
+            1.29072
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 2.2111257408082134,
+          "max": 8.06225774829855,
+          "values": [
+            1.41421,
+            1.0,
+            2.0,
+            7.0,
+            4.12311,
+            2.0,
+            1.0,
+            0.0,
+            3.60555,
+            6.08276,
+            1.41421,
+            1.0,
+            1.41421,
+            3.16228,
+            2.82843,
+            3.60555,
+            2.23607,
+            3.16228,
+            8.06226,
+            3.60555,
+            1.41421,
+            1.41421,
+            0.0,
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 0.8216254528272283,
+          "max": 1.8401323042999138,
+          "values": [
+            0.86659,
+            0.67144,
+            0.85998,
+            1.84013,
+            0.02977,
+            1.81588,
+            0.00331,
+            0.68467,
+            0.45094,
+            1.37266,
+            1.26902,
+            0.30761,
+            0.26351,
+            1.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 2880,
+            "triangles": 5760,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 4022.6656316298954,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 2880,
+            "triangles": 5760,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 4022.6656316298954,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1332,
+            "triangles": 2660,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11910.861380557733,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      }
+    ],
+    "first_glb_s": 147.5451021194458,
+    "frozen_s": 268.7918860912323,
+    "replay_seconds": [
+      0.2866105839784723,
+      0.29563224999583326,
+      0.2919034590013325
+    ],
+    "intersections": {
+      "IslandRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "HexiRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "Deck": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      }
+    },
+    "native_qa": {
+      "ok": true,
+      "pass": false,
+      "errors": [
+        "floating/detached part in IslandRing (2880 verts at [149.853, -0.069, 38.937])",
+        "floating/detached part in HexiRing (2880 verts at [-149.853, -0.069, 38.937])"
+      ],
+      "warnings": [
+        "asset lowest point z=-3.5 (not resting on ground plane z=0)"
+      ],
+      "ground_z": -3.5,
+      "zfighting": [],
+      "floating": [
+        {
+          "object": "IslandRing",
+          "island_verts": 2880,
+          "center": [
+            149.853,
+            -0.069,
+            38.937
+          ]
+        },
+        {
+          "object": "HexiRing",
+          "island_verts": 2880,
+          "center": [
+            -149.853,
+            -0.069,
+            38.937
+          ]
+        }
+      ],
+      "back_to_back": [],
+      "enclosed": [],
+      "objects": {
+        "IslandRing": {
+          "verts": 2880,
+          "faces": 5760,
+          "tris": 5760,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "HexiRing": {
+          "verts": 2880,
+          "faces": 5760,
+          "tris": 5760,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "Deck": {
+          "verts": 1332,
+          "faces": 2660,
+          "tris": 2660,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        }
+      }
+    }
+  },
+  "plain2": {
+    "final_sha256": "3735cdb7fd5eb59f9024cb4a3c0a7f88cb983b4207c560eababba818cddaf062",
+    "candidates": [
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.1286620241456427,
+          "max": 5.0990195135927845,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            5.09902,
+            4.12311,
+            2.23607,
+            0.0,
+            1.0,
+            2.82843,
+            3.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 438,
+            "right": 572,
+            "absolute_errors": [
+              0.8665931642778446,
+              1.6714443219404984
+            ]
+          },
+          {
+            "y": 286,
+            "left": 421,
+            "right": 592,
+            "absolute_errors": [
+              1.8599779492833477,
+              2.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 402,
+            "right": 619,
+            "absolute_errors": [
+              2.9702315325247923,
+              0.18412348401318468
+            ]
+          },
+          {
+            "y": 191,
+            "left": 470,
+            "right": 537,
+            "absolute_errors": [
+              1.00330760749722,
+              0.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 428,
+            "right": 584,
+            "absolute_errors": [
+              1.4509371554575523,
+              2.3726571113561477
+            ]
+          },
+          {
+            "y": 318,
+            "left": 414,
+            "right": 602,
+            "absolute_errors": [
+              2.269018743109143,
+              1.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 405,
+            "right": 615,
+            "absolute_errors": [
+              1.7364939360529092,
+              2.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 5.511150698917971,
+          "max": 9.433981132056603,
+          "values": [
+            8.24621,
+            7.0,
+            7.28011,
+            8.94427,
+            8.94427,
+            9.43398,
+            1.0,
+            2.23607,
+            6.7082,
+            2.23607,
+            1.0,
+            7.61577,
+            1.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 1.051776695296637,
+          "max": 2.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            2.0,
+            1.41421,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6995364447392942,
+          "max": 3.055707704442894,
+          "values": [
+            2.69708,
+            3.05571,
+            2.42859,
+            1.47196,
+            2.53344,
+            0.43318,
+            0.14982,
+            0.39223,
+            1.85301,
+            1.92456,
+            1.6327,
+            0.09402,
+            2.60942,
+            2.51779
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 3.26921912547623,
+          "max": 9.433981132056603,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            5.09902,
+            4.12311,
+            2.23607,
+            0.0,
+            1.0,
+            2.82843,
+            3.0,
+            8.24621,
+            7.0,
+            7.28011,
+            8.94427,
+            8.94427,
+            9.43398,
+            1.0,
+            2.23607,
+            6.7082,
+            2.23607,
+            1.0,
+            7.61577,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            2.0,
+            1.41421,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 1.6631753031973548,
+          "max": 2.9702315325247923,
+          "values": [
+            0.86659,
+            1.67144,
+            1.85998,
+            2.84013,
+            2.97023,
+            0.18412,
+            1.00331,
+            0.68467,
+            1.45094,
+            2.37266,
+            2.26902,
+            1.30761,
+            1.73649,
+            2.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 1536,
+            "triangles": 3072,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3124.838733003766,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 1536,
+            "triangles": 3072,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3124.838733003766,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1452,
+            "triangles": 2900,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11955.83720379754,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      },
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.438332561004399,
+          "max": 6.082762530298219,
+          "values": [
+            2.0,
+            0.0,
+            2.0,
+            6.08276,
+            4.47214,
+            2.82843,
+            1.0,
+            1.0,
+            3.0,
+            2.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 438,
+            "right": 572,
+            "absolute_errors": [
+              0.8665931642778446,
+              1.6714443219404984
+            ]
+          },
+          {
+            "y": 286,
+            "left": 421,
+            "right": 592,
+            "absolute_errors": [
+              1.8599779492833477,
+              2.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 401,
+            "right": 620,
+            "absolute_errors": [
+              1.9702315325247923,
+              0.8158765159868153
+            ]
+          },
+          {
+            "y": 191,
+            "left": 469,
+            "right": 537,
+            "absolute_errors": [
+              2.00330760749722,
+              0.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 427,
+            "right": 584,
+            "absolute_errors": [
+              0.4509371554575523,
+              2.3726571113561477
+            ]
+          },
+          {
+            "y": 318,
+            "left": 413,
+            "right": 602,
+            "absolute_errors": [
+              1.269018743109143,
+              1.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 404,
+            "right": 616,
+            "absolute_errors": [
+              0.7364939360529092,
+              1.0672546857772431
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 2.939361436663132,
+          "max": 7.615773105863909,
+          "values": [
+            4.47214,
+            2.0,
+            2.0,
+            2.82843,
+            2.23607,
+            3.60555,
+            2.0,
+            3.60555,
+            7.61577,
+            3.60555,
+            1.41421,
+            2.82843,
+            0.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 0.9785533905932737,
+          "max": 1.4142135623730951,
+          "values": [
+            1.41421,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.41421,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6995364447392942,
+          "max": 3.055707704442894,
+          "values": [
+            2.69708,
+            3.05571,
+            2.42859,
+            1.47196,
+            2.53344,
+            0.43318,
+            0.14982,
+            0.39223,
+            1.85301,
+            1.92456,
+            1.6327,
+            0.09402,
+            2.60942,
+            2.51779
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 2.2717242390777708,
+          "max": 7.615773105863909,
+          "values": [
+            2.0,
+            0.0,
+            2.0,
+            6.08276,
+            4.47214,
+            2.82843,
+            1.0,
+            1.0,
+            3.0,
+            2.0,
+            4.47214,
+            2.0,
+            2.0,
+            2.82843,
+            2.23607,
+            3.60555,
+            2.0,
+            3.60555,
+            7.61577,
+            3.60555,
+            1.41421,
+            2.82843,
+            0.0,
+            1.41421,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.41421,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 1.4225862340526143,
+          "max": 2.840132304299914,
+          "values": [
+            0.86659,
+            1.67144,
+            1.85998,
+            2.84013,
+            1.97023,
+            0.81588,
+            2.00331,
+            0.68467,
+            0.45094,
+            2.37266,
+            1.26902,
+            1.30761,
+            0.73649,
+            1.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 1536,
+            "triangles": 3072,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3237.694893758453,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 1536,
+            "triangles": 3072,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3237.694893758453,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1452,
+            "triangles": 2900,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11955.83720379754,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      }
+    ],
+    "first_glb_s": 112.09017491340637,
+    "frozen_s": 148.19527912139893,
+    "replay_seconds": [
+      0.30502674999297597,
+      0.29113324999343604,
+      0.2918606669991277
+    ],
+    "intersections": {
+      "IslandRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "HexiRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "Deck": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      }
+    },
+    "native_qa": {
+      "ok": true,
+      "pass": false,
+      "errors": [
+        "floating/detached part in IslandRing (1536 verts at [150.37, 0.07, 38.416])",
+        "floating/detached part in HexiRing (1536 verts at [-150.37, 0.07, 38.416])"
+      ],
+      "warnings": [
+        "asset lowest point z=-4.6631 (not resting on ground plane z=0)"
+      ],
+      "ground_z": -4.6631,
+      "zfighting": [],
+      "floating": [
+        {
+          "object": "IslandRing",
+          "island_verts": 1536,
+          "center": [
+            150.37,
+            0.07,
+            38.416
+          ]
+        },
+        {
+          "object": "HexiRing",
+          "island_verts": 1536,
+          "center": [
+            -150.37,
+            0.07,
+            38.416
+          ]
+        }
+      ],
+      "back_to_back": [],
+      "enclosed": [],
+      "objects": {
+        "IslandRing": {
+          "verts": 1536,
+          "faces": 3072,
+          "tris": 3072,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "HexiRing": {
+          "verts": 1536,
+          "faces": 3072,
+          "tris": 3072,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "Deck": {
+          "verts": 1452,
+          "faces": 2900,
+          "tris": 2900,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        }
+      }
+    }
+  },
+  "skill1": {
+    "final_sha256": "0831b884453eadb2b89e165de67365c746fad1372ca887d92ae954c4d3323af5",
+    "candidates": [
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 3.282988636576507,
+          "max": 7.280109889280518,
+          "values": [
+            2.23607,
+            2.0,
+            3.0,
+            7.28011,
+            5.65685,
+            2.82843,
+            0.0,
+            2.0,
+            2.82843,
+            5.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 439,
+            "right": 569,
+            "absolute_errors": [
+              1.8665931642778446,
+              4.671444321940498
+            ]
+          },
+          {
+            "y": 286,
+            "left": 422,
+            "right": 589,
+            "absolute_errors": [
+              2.8599779492833477,
+              5.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 401,
+            "right": 619,
+            "absolute_errors": [
+              1.9702315325247923,
+              0.18412348401318468
+            ]
+          },
+          {
+            "y": 191,
+            "left": 465,
+            "right": 538,
+            "absolute_errors": [
+              6.00330760749722,
+              0.31532524807050777
+            ]
+          },
+          {
+            "y": 265,
+            "left": 429,
+            "right": 581,
+            "absolute_errors": [
+              2.4509371554575523,
+              5.372657111356148
+            ]
+          },
+          {
+            "y": 318,
+            "left": 414,
+            "right": 600,
+            "absolute_errors": [
+              2.269018743109143,
+              3.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 403,
+            "right": 614,
+            "absolute_errors": [
+              0.26350606394709075,
+              3.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 5.837186667770677,
+          "max": 11.180339887498949,
+          "values": [
+            4.47214,
+            5.38516,
+            8.0,
+            10.77033,
+            11.18034,
+            11.18034,
+            1.41421,
+            2.82843,
+            6.7082,
+            2.0,
+            1.0,
+            8.94427,
+            2.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 1.4785533905932737,
+          "max": 2.0,
+          "values": [
+            1.0,
+            1.41421,
+            1.0,
+            1.0,
+            2.0,
+            2.0,
+            1.41421,
+            2.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6144328181006085,
+          "max": 4.238052941188393,
+          "values": [
+            1.48425,
+            2.19287,
+            2.60027,
+            2.12327,
+            4.23805,
+            2.29819,
+            2.82902,
+            0.34408,
+            0.83379,
+            1.05952,
+            1.48113,
+            0.00461,
+            0.49465,
+            0.61835
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 3.888443231339679,
+          "max": 11.180339887498949,
+          "values": [
+            2.23607,
+            2.0,
+            3.0,
+            7.28011,
+            5.65685,
+            2.82843,
+            0.0,
+            2.0,
+            2.82843,
+            5.0,
+            4.47214,
+            5.38516,
+            8.0,
+            10.77033,
+            11.18034,
+            11.18034,
+            1.41421,
+            2.82843,
+            6.7082,
+            2.0,
+            1.0,
+            8.94427,
+            2.0,
+            1.0,
+            1.41421,
+            1.0,
+            1.0,
+            2.0,
+            2.0,
+            1.41421,
+            2.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 2.888722633485583,
+          "max": 6.00330760749722,
+          "values": [
+            1.86659,
+            4.67144,
+            2.85998,
+            5.84013,
+            1.97023,
+            0.18412,
+            6.00331,
+            0.31533,
+            2.45094,
+            5.37266,
+            2.26902,
+            3.30761,
+            0.26351,
+            3.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 2560,
+            "triangles": 5120,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3953.507346568687,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 2560,
+            "triangles": 5120,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3953.507346568687,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 972,
+            "triangles": 1940,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11898.671164045934,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      },
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.9123105625617662,
+          "max": 8.0,
+          "values": [
+            2.0,
+            1.0,
+            3.0,
+            8.0,
+            4.12311,
+            3.0,
+            0.0,
+            2.0,
+            4.0,
+            2.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 438,
+            "right": 569,
+            "absolute_errors": [
+              0.8665931642778446,
+              4.671444321940498
+            ]
+          },
+          {
+            "y": 286,
+            "left": 419,
+            "right": 591,
+            "absolute_errors": [
+              0.1400220507166523,
+              3.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 398,
+            "right": 620,
+            "absolute_errors": [
+              1.0297684674752077,
+              0.8158765159868153
+            ]
+          },
+          {
+            "y": 191,
+            "left": 471,
+            "right": 533,
+            "absolute_errors": [
+              0.003307607497220033,
+              4.684674751929492
+            ]
+          },
+          {
+            "y": 265,
+            "left": 426,
+            "right": 583,
+            "absolute_errors": [
+              0.5490628445424477,
+              3.3726571113561477
+            ]
+          },
+          {
+            "y": 318,
+            "left": 411,
+            "right": 601,
+            "absolute_errors": [
+              0.7309812568908569,
+              2.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 401,
+            "right": 615,
+            "absolute_errors": [
+              2.2635060639470908,
+              2.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 2.7471902281935607,
+          "max": 7.211102550927978,
+          "values": [
+            3.0,
+            2.0,
+            2.0,
+            3.16228,
+            2.82843,
+            3.60555,
+            2.23607,
+            3.60555,
+            7.2111,
+            2.82843,
+            0.0,
+            2.23607,
+            1.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 0.875,
+          "max": 1.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6144328181006085,
+          "max": 4.238052941188393,
+          "values": [
+            1.48425,
+            2.19287,
+            2.60027,
+            2.12327,
+            4.23805,
+            2.29819,
+            2.82902,
+            0.34408,
+            0.83379,
+            1.05952,
+            1.48113,
+            0.00461,
+            0.49465,
+            0.61835
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 2.317308986843031,
+          "max": 8.0,
+          "values": [
+            2.0,
+            1.0,
+            3.0,
+            8.0,
+            4.12311,
+            3.0,
+            0.0,
+            2.0,
+            4.0,
+            2.0,
+            3.0,
+            2.0,
+            2.0,
+            3.16228,
+            2.82843,
+            3.60555,
+            2.23607,
+            3.60555,
+            7.2111,
+            2.82843,
+            0.0,
+            2.23607,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 1.9530634745629365,
+          "max": 4.684674751929492,
+          "values": [
+            0.86659,
+            4.67144,
+            0.14002,
+            3.84013,
+            1.02977,
+            0.81588,
+            0.00331,
+            4.68467,
+            0.54906,
+            3.37266,
+            0.73098,
+            2.30761,
+            2.26351,
+            2.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 2560,
+            "triangles": 5120,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3697.250740220728,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 2560,
+            "triangles": 5120,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3697.250740220728,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 972,
+            "triangles": 1940,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11898.671164045934,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      },
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.9907226221501118,
+          "max": 9.055385138137417,
+          "values": [
+            1.0,
+            0.0,
+            3.0,
+            9.05539,
+            2.23607,
+            2.0,
+            1.0,
+            1.0,
+            7.61577,
+            3.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 439,
+            "right": 570,
+            "absolute_errors": [
+              1.8665931642778446,
+              3.6714443219404984
+            ]
+          },
+          {
+            "y": 286,
+            "left": 420,
+            "right": 592,
+            "absolute_errors": [
+              0.8599779492833477,
+              2.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 398,
+            "right": 620,
+            "absolute_errors": [
+              1.0297684674752077,
+              0.8158765159868153
+            ]
+          },
+          {
+            "y": 191,
+            "left": 473,
+            "right": 535,
+            "absolute_errors": [
+              1.99669239250278,
+              2.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 428,
+            "right": 584,
+            "absolute_errors": [
+              1.4509371554575523,
+              2.3726571113561477
+            ]
+          },
+          {
+            "y": 318,
+            "left": 412,
+            "right": 602,
+            "absolute_errors": [
+              0.2690187431091431,
+              1.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 401,
+            "right": 616,
+            "absolute_errors": [
+              2.2635060639470908,
+              1.0672546857772431
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 2.86390597142036,
+          "max": 8.06225774829855,
+          "values": [
+            3.0,
+            2.0,
+            2.0,
+            2.82843,
+            2.82843,
+            3.60555,
+            2.23607,
+            3.60555,
+            8.06226,
+            2.82843,
+            0.0,
+            2.23607,
+            2.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 0.75,
+          "max": 2.0,
+          "values": [
+            1.0,
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 1.6144328181006085,
+          "max": 4.238052941188393,
+          "values": [
+            1.48425,
+            2.19287,
+            2.60027,
+            2.12327,
+            4.23805,
+            2.29819,
+            2.82902,
+            0.34408,
+            0.83379,
+            1.05952,
+            1.48113,
+            0.00461,
+            0.49465,
+            0.61835
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 2.35929044677309,
+          "max": 9.055385138137417,
+          "values": [
+            1.0,
+            0.0,
+            3.0,
+            9.05539,
+            2.23607,
+            2.0,
+            1.0,
+            1.0,
+            7.61577,
+            3.0,
+            3.0,
+            2.0,
+            2.0,
+            2.82843,
+            2.82843,
+            3.60555,
+            2.23607,
+            3.60555,
+            8.06226,
+            2.82843,
+            0.0,
+            2.23607,
+            2.0,
+            1.0,
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 1.7497243660419113,
+          "max": 3.6714443219404984,
+          "values": [
+            1.86659,
+            3.67144,
+            0.85998,
+            2.84013,
+            1.02977,
+            0.81588,
+            1.99669,
+            2.68467,
+            1.45094,
+            2.37266,
+            0.26902,
+            1.30761,
+            2.26351,
+            1.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 2560,
+            "triangles": 5120,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 4126.26278822224,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 2560,
+            "triangles": 5120,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 4126.26278822224,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 972,
+            "triangles": 1940,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11898.671164045934,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      }
+    ],
+    "first_glb_s": 140.70907998085022,
+    "frozen_s": 264.38027906417847,
+    "replay_seconds": [
+      0.2931294589943718,
+      0.2920750000048429,
+      0.2838125829875935
+    ],
+    "intersections": {
+      "IslandRing": {
+        "pairs": 120,
+        "example_pairs": [
+          [
+            1210,
+            1346
+          ],
+          [
+            1210,
+            3914
+          ],
+          [
+            1211,
+            1355
+          ],
+          [
+            1211,
+            3915
+          ],
+          [
+            1211,
+            1347
+          ],
+          [
+            1218,
+            1338
+          ],
+          [
+            1218,
+            3906
+          ],
+          [
+            1220,
+            1340
+          ]
+        ],
+        "affected_triangle_z_extent": [
+          -2.8513572216033936,
+          8.75118350982666
+        ]
+      },
+      "HexiRing": {
+        "pairs": 120,
+        "example_pairs": [
+          [
+            1210,
+            1346
+          ],
+          [
+            1210,
+            3914
+          ],
+          [
+            1211,
+            1355
+          ],
+          [
+            1211,
+            3915
+          ],
+          [
+            1211,
+            1347
+          ],
+          [
+            1218,
+            1338
+          ],
+          [
+            1218,
+            3906
+          ],
+          [
+            1220,
+            1340
+          ]
+        ],
+        "affected_triangle_z_extent": [
+          -2.8513572216033936,
+          8.75118350982666
+        ]
+      },
+      "Deck": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      }
+    },
+    "native_qa": {
+      "ok": true,
+      "pass": false,
+      "errors": [
+        "floating/detached part in IslandRing (2560 verts at [150.45, -0.187, 39.076])",
+        "floating/detached part in HexiRing (2560 verts at [-150.45, -0.187, 39.076])"
+      ],
+      "warnings": [
+        "asset lowest point z=-3.1772 (not resting on ground plane z=0)"
+      ],
+      "ground_z": -3.1772,
+      "zfighting": [],
+      "floating": [
+        {
+          "object": "IslandRing",
+          "island_verts": 2560,
+          "center": [
+            150.45,
+            -0.187,
+            39.076
+          ]
+        },
+        {
+          "object": "HexiRing",
+          "island_verts": 2560,
+          "center": [
+            -150.45,
+            -0.187,
+            39.076
+          ]
+        }
+      ],
+      "back_to_back": [],
+      "enclosed": [],
+      "objects": {
+        "IslandRing": {
+          "verts": 2560,
+          "faces": 5120,
+          "tris": 5120,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "HexiRing": {
+          "verts": 2560,
+          "faces": 5120,
+          "tris": 5120,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "Deck": {
+          "verts": 972,
+          "faces": 1940,
+          "tris": 1940,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        }
+      }
+    }
+  },
+  "skill2": {
+    "final_sha256": "4c521d0cb285d804887b57100f9c33ff60867dc197a0e06587555c6a4c838018",
+    "candidates": [
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.3236916036149893,
+          "max": 8.246211251235321,
+          "values": [
+            1.0,
+            0.0,
+            1.0,
+            4.0,
+            3.16228,
+            2.0,
+            0.0,
+            1.0,
+            2.82843,
+            8.24621
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 440,
+            "right": 570,
+            "absolute_errors": [
+              2.8665931642778446,
+              3.6714443219404984
+            ]
+          },
+          {
+            "y": 286,
+            "left": 424,
+            "right": 589,
+            "absolute_errors": [
+              4.859977949283348,
+              5.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 403,
+            "right": 618,
+            "absolute_errors": [
+              3.9702315325247923,
+              1.1841234840131847
+            ]
+          },
+          {
+            "y": 191,
+            "left": 471,
+            "right": 536,
+            "absolute_errors": [
+              0.003307607497220033,
+              1.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 430,
+            "right": 582,
+            "absolute_errors": [
+              3.4509371554575523,
+              4.372657111356148
+            ]
+          },
+          {
+            "y": 318,
+            "left": 416,
+            "right": 599,
+            "absolute_errors": [
+              4.269018743109143,
+              4.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 407,
+            "right": 613,
+            "absolute_errors": [
+              3.7364939360529092,
+              4.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 4.736362339502145,
+          "max": 8.94427190999916,
+          "values": [
+            2.0,
+            2.82843,
+            5.0,
+            8.94427,
+            8.06226,
+            8.60233,
+            2.82843,
+            3.60555,
+            8.06226,
+            2.23607,
+            1.0,
+            6.40312,
+            2.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 1.3535533905932737,
+          "max": 2.8284271247461903,
+          "values": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            2.0,
+            2.0,
+            2.82843,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 0.7434814980202553,
+          "max": 2.092875553988128,
+          "values": [
+            1.32675,
+            0.69792,
+            0.36962,
+            0.0196,
+            0.66478,
+            0.02716,
+            0.69583,
+            0.38365,
+            0.71272,
+            1.37769,
+            2.09288,
+            0.69431,
+            0.98165,
+            0.36417
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 3.085098502400773,
+          "max": 8.94427190999916,
+          "values": [
+            1.0,
+            0.0,
+            1.0,
+            4.0,
+            3.16228,
+            2.0,
+            0.0,
+            1.0,
+            2.82843,
+            8.24621,
+            2.0,
+            2.82843,
+            5.0,
+            8.94427,
+            8.06226,
+            8.60233,
+            2.82843,
+            3.60555,
+            8.06226,
+            2.23607,
+            1.0,
+            6.40312,
+            2.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            2.0,
+            2.0,
+            2.82843,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 3.4488895889116407,
+          "max": 5.840132304299914,
+          "values": [
+            2.86659,
+            3.67144,
+            4.85998,
+            5.84013,
+            3.97023,
+            1.18412,
+            0.00331,
+            1.68467,
+            3.45094,
+            4.37266,
+            4.26902,
+            4.30761,
+            3.73649,
+            4.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3873.5337269633796,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3873.5337269633796,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1052,
+            "triangles": 2100,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11881.463891073763,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      },
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.1621232784634294,
+          "max": 5.385164807134504,
+          "values": [
+            2.0,
+            1.0,
+            2.0,
+            5.38516,
+            2.23607,
+            2.0,
+            0.0,
+            2.0,
+            0.0,
+            5.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 438,
+            "right": 569,
+            "absolute_errors": [
+              0.8665931642778446,
+              4.671444321940498
+            ]
+          },
+          {
+            "y": 286,
+            "left": 420,
+            "right": 590,
+            "absolute_errors": [
+              0.8599779492833477,
+              4.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 399,
+            "right": 618,
+            "absolute_errors": [
+              0.02976846747520767,
+              1.1841234840131847
+            ]
+          },
+          {
+            "y": 191,
+            "left": 470,
+            "right": 535,
+            "absolute_errors": [
+              1.00330760749722,
+              2.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 427,
+            "right": 582,
+            "absolute_errors": [
+              0.4509371554575523,
+              4.372657111356148
+            ]
+          },
+          {
+            "y": 318,
+            "left": 412,
+            "right": 600,
+            "absolute_errors": [
+              0.2690187431091431,
+              3.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 402,
+            "right": 614,
+            "absolute_errors": [
+              1.2635060639470908,
+              3.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 2.5492604955813927,
+          "max": 7.615773105863909,
+          "values": [
+            0.0,
+            0.0,
+            1.0,
+            3.16228,
+            2.82843,
+            4.24264,
+            4.47214,
+            3.16228,
+            7.61577,
+            2.82843,
+            0.0,
+            2.82843,
+            1.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 0.6545084971874737,
+          "max": 2.23606797749979,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            2.23607,
+            0.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 0.7434814980202553,
+          "max": 2.092875553988128,
+          "values": [
+            1.32675,
+            0.69792,
+            0.36962,
+            0.0196,
+            0.66478,
+            0.02716,
+            0.69583,
+            0.38365,
+            0.71272,
+            1.37769,
+            2.09288,
+            0.69431,
+            0.98165,
+            0.36417
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 1.9354092646674899,
+          "max": 7.615773105863909,
+          "values": [
+            2.0,
+            1.0,
+            2.0,
+            5.38516,
+            2.23607,
+            2.0,
+            0.0,
+            2.0,
+            0.0,
+            5.0,
+            0.0,
+            0.0,
+            1.0,
+            3.16228,
+            2.82843,
+            4.24264,
+            4.47214,
+            3.16228,
+            7.61577,
+            2.82843,
+            0.0,
+            2.82843,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            2.23607,
+            0.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 2.062214521971969,
+          "max": 4.840132304299914,
+          "values": [
+            0.86659,
+            4.67144,
+            0.85998,
+            4.84013,
+            0.02977,
+            1.18412,
+            1.00331,
+            2.68467,
+            0.45094,
+            4.37266,
+            0.26902,
+            3.30761,
+            1.26351,
+            3.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3089.112827301229,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 3089.112827301229,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1052,
+            "triangles": 2100,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11881.463891073763,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      },
+      {
+        "deck_external": {
+          "n": 10,
+          "mean": 2.406449510224598,
+          "max": 7.0,
+          "values": [
+            1.0,
+            1.0,
+            2.0,
+            7.0,
+            2.82843,
+            2.23607,
+            0.0,
+            2.0,
+            1.0,
+            5.0
+          ]
+        },
+        "inner_rows": [
+          {
+            "y": 238,
+            "left": 438,
+            "right": 571,
+            "absolute_errors": [
+              0.8665931642778446,
+              2.6714443219404984
+            ]
+          },
+          {
+            "y": 286,
+            "left": 420,
+            "right": 591,
+            "absolute_errors": [
+              0.8599779492833477,
+              3.840132304299914
+            ]
+          },
+          {
+            "y": 402,
+            "left": 399,
+            "right": 619,
+            "absolute_errors": [
+              0.02976846747520767,
+              0.18412348401318468
+            ]
+          },
+          {
+            "y": 191,
+            "left": 471,
+            "right": 537,
+            "absolute_errors": [
+              0.003307607497220033,
+              0.6846747519294922
+            ]
+          },
+          {
+            "y": 265,
+            "left": 427,
+            "right": 583,
+            "absolute_errors": [
+              0.4509371554575523,
+              3.3726571113561477
+            ]
+          },
+          {
+            "y": 318,
+            "left": 412,
+            "right": 600,
+            "absolute_errors": [
+              0.2690187431091431,
+              3.30760749724368
+            ]
+          },
+          {
+            "y": 375,
+            "left": 402,
+            "right": 614,
+            "absolute_errors": [
+              1.2635060639470908,
+              3.067254685777243
+            ]
+          }
+        ],
+        "bank_external": {
+          "n": 13,
+          "mean": 2.5244292647466504,
+          "max": 7.615773105863909,
+          "values": [
+            0.0,
+            0.0,
+            1.0,
+            3.16228,
+            2.82843,
+            3.60555,
+            5.0,
+            3.60555,
+            7.61577,
+            3.0,
+            0.0,
+            2.0,
+            1.0
+          ]
+        },
+        "air_external": {
+          "n": 8,
+          "mean": 0.9045084971874737,
+          "max": 2.23606797749979,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            2.23607,
+            1.0
+          ]
+        },
+        "approach": {
+          "n": 14,
+          "mean": 0.7434814980202553,
+          "max": 2.092875553988128,
+          "values": [
+            1.32675,
+            0.69792,
+            0.36962,
+            0.0196,
+            0.66478,
+            0.02716,
+            0.69583,
+            0.38365,
+            0.71272,
+            1.37769,
+            2.09288,
+            0.69431,
+            0.98165,
+            0.36417
+          ]
+        },
+        "external": {
+          "n": 31,
+          "mean": 2.068327210369427,
+          "max": 7.615773105863909,
+          "values": [
+            1.0,
+            1.0,
+            2.0,
+            7.0,
+            2.82843,
+            2.23607,
+            0.0,
+            2.0,
+            1.0,
+            5.0,
+            0.0,
+            0.0,
+            1.0,
+            3.16228,
+            2.82843,
+            3.60555,
+            5.0,
+            3.60555,
+            7.61577,
+            3.0,
+            0.0,
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            2.23607,
+            1.0
+          ]
+        },
+        "inner": {
+          "n": 14,
+          "mean": 1.4907859505433976,
+          "max": 3.840132304299914,
+          "values": [
+            0.86659,
+            2.67144,
+            0.85998,
+            3.84013,
+            0.02977,
+            0.18412,
+            0.00331,
+            0.68467,
+            0.45094,
+            3.37266,
+            0.26902,
+            3.30761,
+            1.26351,
+            3.06725
+          ]
+        },
+        "missing_inner_rows": 0,
+        "topology": {
+          "IslandRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 2979.9333275599543,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "HexiRing": {
+            "vertices": 1024,
+            "triangles": 2048,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 2979.9333275599543,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 0
+          },
+          "Deck": {
+            "vertices": 1052,
+            "triangles": 2100,
+            "watertight": true,
+            "consistent_winding": true,
+            "volume_m3": 11881.463891073763,
+            "degenerate": 0,
+            "components": 1,
+            "euler": 2
+          }
+        },
+        "approach_start_delta_m": 0.0
+      }
+    ],
+    "first_glb_s": 94.49384570121765,
+    "frozen_s": 189.69539284706116,
+    "replay_seconds": [
+      0.3087037910008803,
+      0.2892888330097776,
+      0.2881516670167912
+    ],
+    "intersections": {
+      "IslandRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "HexiRing": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      },
+      "Deck": {
+        "pairs": 0,
+        "example_pairs": [],
+        "affected_triangle_z_extent": null
+      }
+    },
+    "native_qa": {
+      "ok": true,
+      "pass": false,
+      "errors": [
+        "floating/detached part in IslandRing (1024 verts at [151.022, -0.042, 38.85])",
+        "floating/detached part in HexiRing (1024 verts at [-151.022, -0.042, 38.85])"
+      ],
+      "warnings": [
+        "asset lowest point z=-3.5 (not resting on ground plane z=0)"
+      ],
+      "ground_z": -3.5,
+      "zfighting": [],
+      "floating": [
+        {
+          "object": "IslandRing",
+          "island_verts": 1024,
+          "center": [
+            151.022,
+            -0.042,
+            38.85
+          ]
+        },
+        {
+          "object": "HexiRing",
+          "island_verts": 1024,
+          "center": [
+            -151.022,
+            -0.042,
+            38.85
+          ]
+        }
+      ],
+      "back_to_back": [],
+      "enclosed": [],
+      "objects": {
+        "IslandRing": {
+          "verts": 1024,
+          "faces": 2048,
+          "tris": 2048,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "HexiRing": {
+          "verts": 1024,
+          "faces": 2048,
+          "tris": 2048,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        },
+        "Deck": {
+          "verts": 1052,
+          "faces": 2100,
+          "tris": 2100,
+          "ngons": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "loose_verts": 0,
+          "degenerate_faces": 0,
+          "zero_length_edges": 0,
+          "inconsistent_normals_edges": 0,
+          "duplicate_verts": 0,
+          "islands": 1,
+          "inside_out_islands": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "materials": 1
+        }
+      }
+    }
+  }
+}
