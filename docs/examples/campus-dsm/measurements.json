@@ -1,0 +1,2055 @@
+{
+  "source_type": "Textured photogrammetric Wavefront OBJ, MTL and 26 atlases",
+  "source_sha256": "709a9e68e17d15684c21577a12d06583b19ce3d4fb9354f014c44c4184302cbb",
+  "n_per_region": 2048,
+  "reference_regions": 56,
+  "random_seed": 20261120,
+  "tolerance_for_assignment": 0.15,
+  "node_min_coverage": 0.6,
+  "node_min_purity": 0.8,
+  "groups": {
+    "buildings": [
+      "building_main_001",
+      "building_wing_002"
+    ],
+    "canopy": [
+      "tree_canopy_001",
+      "tree_canopy_002",
+      "tree_canopy_003"
+    ],
+    "low_vegetation": [
+      "vegetation_004",
+      "vegetation_005",
+      "vegetation_006"
+    ],
+    "vehicles": [
+      "vehicle_001",
+      "vehicle_002",
+      "vehicle_003",
+      "vehicle_004",
+      "vehicle_005",
+      "vehicle_006",
+      "vehicle_007",
+      "vehicle_008",
+      "vehicle_009",
+      "vehicle_010"
+    ],
+    "playset": [
+      "playset_001"
+    ],
+    "roof_structures": [
+      "roof_equipment_001",
+      "roof_equipment_002",
+      "roof_room_002",
+      "roof_orange_002",
+      "roof_service_001",
+      "roof_tank_001"
+    ],
+    "roof_court": [
+      "roof_court_002"
+    ],
+    "shelters": [
+      "entrance_canopy_001",
+      "stair_canopy_001",
+      "south_awning_001",
+      "tent_001"
+    ],
+    "boundaries": [
+      "north_boundary_001",
+      "courtyard_wall_east_001",
+      "courtyard_wall_north_001"
+    ],
+    "traffic": [
+      "traffic_fixture_001",
+      "traffic_fixture_002",
+      "traffic_fixture_003",
+      "traffic_fixture_004",
+      "traffic_fixture_005",
+      "traffic_fixture_006",
+      "traffic_fixture_007",
+      "traffic_fixture_008"
+    ],
+    "roadside": [
+      "roadside_fixture_001"
+    ],
+    "hoop": [
+      "basketball_hoop_001"
+    ],
+    "ground": [
+      "street_east_001",
+      "street_west_001",
+      "street_south_001",
+      "courtyard_ground_001",
+      "north_yard_ground_001",
+      "ground_court_001"
+    ],
+    "uncertain": [
+      "unresolved_region_12",
+      "unresolved_region_13",
+      "unresolved_region_21",
+      "unresolved_region_22",
+      "unresolved_region_23",
+      "unresolved_region_31",
+      "unresolved_region_32"
+    ]
+  },
+  "methods": {
+    "guided": {
+      "sha256": "955cac7b9b4fc5b47949296b42590a8fcf6fe74a728348c225d4e30bb1da02c4",
+      "bytes": 20136308,
+      "triangles": 314544,
+      "mesh_nodes": 33,
+      "mesh_node_names": [
+        "Ground_and_unresolved_scan",
+        "Court_play_yard",
+        "Court_basketball_markings",
+        "Wall_yard_north",
+        "Wall_yard_east",
+        "Building_entry_terrace",
+        "Building_main",
+        "Building_green_roof_wing",
+        "Court_rooftop_field",
+        "Arcade_court_side",
+        "Arcade_wing_eave",
+        "Wing_orange_roof",
+        "Wing_rooftop_room",
+        "Main_rooftop_tank",
+        "Main_rooftop_blue_unit",
+        "Main_external_stair",
+        "Play_climber_with_slides",
+        "Court_basketball_hoop",
+        "Court_red_canopy",
+        "Court_shrub_east",
+        "Tree_front_west",
+        "Tree_front_east",
+        "Tree_yard_east",
+        "Vehicle_01",
+        "Vehicle_02",
+        "Vehicle_03",
+        "Vehicle_04",
+        "Vehicle_05",
+        "Vehicle_06",
+        "Vehicle_07",
+        "Vehicle_08",
+        "Vehicle_09",
+        "Vehicle_10"
+      ],
+      "images": 26,
+      "materials": 26,
+      "instances": {
+        "basketball_hoop_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Court_basketball_hoop",
+          "node_coverage": 0.8813,
+          "node_purity": 1.0,
+          "independent": true
+        },
+        "building_main_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0031,
+          "node": "Building_main",
+          "node_coverage": 0.6821,
+          "node_purity": 0.9872,
+          "independent": true
+        },
+        "building_wing_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0013,
+          "node": "Building_green_roof_wing",
+          "node_coverage": 0.7266,
+          "node_purity": 0.8972,
+          "independent": true
+        },
+        "courtyard_ground_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Court_play_yard",
+          "node_coverage": 0.8677,
+          "node_purity": 0.8899,
+          "independent": true
+        },
+        "courtyard_wall_east_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0007,
+          "node": "Wall_yard_east",
+          "node_coverage": 0.6245,
+          "node_purity": 0.8335,
+          "independent": true
+        },
+        "courtyard_wall_north_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0023,
+          "node": "Wall_yard_north",
+          "node_coverage": 0.6636,
+          "node_purity": 0.7225,
+          "independent": false
+        },
+        "entrance_canopy_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0016,
+          "node": "Arcade_court_side",
+          "node_coverage": 0.8813,
+          "node_purity": 0.2502,
+          "independent": false
+        },
+        "ground_court_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Court_basketball_markings",
+          "node_coverage": 0.9536,
+          "node_purity": 0.9669,
+          "independent": true
+        },
+        "north_boundary_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.005,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0102,
+          "independent": false
+        },
+        "north_yard_ground_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0008,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.9565,
+          "node_purity": 0.0695,
+          "independent": false
+        },
+        "playset_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Play_climber_with_slides",
+          "node_coverage": 0.8823,
+          "node_purity": 0.906,
+          "independent": true
+        },
+        "roadside_fixture_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0022,
+          "independent": false
+        },
+        "roof_court_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0008,
+          "node": "Court_rooftop_field",
+          "node_coverage": 0.8906,
+          "node_purity": 0.914,
+          "independent": true
+        },
+        "roof_equipment_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Building_main",
+          "node_coverage": 1.0,
+          "node_purity": 0.0008,
+          "independent": false
+        },
+        "roof_equipment_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Building_main",
+          "node_coverage": 1.0,
+          "node_purity": 0.0038,
+          "independent": false
+        },
+        "roof_orange_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Wing_orange_roof",
+          "node_coverage": 0.9912,
+          "node_purity": 0.7101,
+          "independent": false
+        },
+        "roof_room_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Wing_rooftop_room",
+          "node_coverage": 0.9858,
+          "node_purity": 0.8707,
+          "independent": true
+        },
+        "roof_service_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Main_rooftop_blue_unit",
+          "node_coverage": 0.9795,
+          "node_purity": 1.0,
+          "independent": true
+        },
+        "roof_tank_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Main_rooftop_tank",
+          "node_coverage": 0.9619,
+          "node_purity": 0.8597,
+          "independent": true
+        },
+        "south_awning_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Building_entry_terrace",
+          "node_coverage": 0.7178,
+          "node_purity": 0.5093,
+          "independent": false
+        },
+        "stair_canopy_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0007,
+          "node": "Main_external_stair",
+          "node_coverage": 1.0,
+          "node_purity": 0.1421,
+          "independent": false
+        },
+        "street_east_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.915,
+          "node_purity": 0.4463,
+          "independent": false
+        },
+        "street_south_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.8892,
+          "node_purity": 0.1754,
+          "independent": false
+        },
+        "street_west_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.9229,
+          "node_purity": 0.1336,
+          "independent": false
+        },
+        "tent_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Court_red_canopy",
+          "node_coverage": 0.9893,
+          "node_purity": 0.7158,
+          "independent": false
+        },
+        "traffic_fixture_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0002,
+          "independent": false
+        },
+        "traffic_fixture_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0002,
+          "independent": false
+        },
+        "traffic_fixture_003": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0003,
+          "independent": false
+        },
+        "traffic_fixture_004": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0002,
+          "independent": false
+        },
+        "traffic_fixture_005": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0005,
+          "independent": false
+        },
+        "traffic_fixture_006": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0002,
+          "independent": false
+        },
+        "traffic_fixture_007": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_008": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "tree_canopy_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Tree_front_west",
+          "node_coverage": 0.7705,
+          "node_purity": 0.8864,
+          "independent": true
+        },
+        "tree_canopy_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Tree_front_east",
+          "node_coverage": 0.9839,
+          "node_purity": 0.6853,
+          "independent": false
+        },
+        "tree_canopy_003": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Tree_yard_east",
+          "node_coverage": 0.9966,
+          "node_purity": 0.7819,
+          "independent": false
+        },
+        "unresolved_region_12": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.7773,
+          "node_purity": 0.0225,
+          "independent": false
+        },
+        "unresolved_region_13": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Tree_yard_east",
+          "node_coverage": 1.0,
+          "node_purity": 0.0081,
+          "independent": false
+        },
+        "unresolved_region_21": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0007,
+          "node": "Building_entry_terrace",
+          "node_coverage": 0.4199,
+          "node_purity": 0.179,
+          "independent": false
+        },
+        "unresolved_region_22": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Court_play_yard",
+          "node_coverage": 0.4814,
+          "node_purity": 0.0363,
+          "independent": false
+        },
+        "unresolved_region_23": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Tree_yard_east",
+          "node_coverage": 0.9805,
+          "node_purity": 0.0956,
+          "independent": false
+        },
+        "unresolved_region_31": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.6895,
+          "node_purity": 0.0049,
+          "independent": false
+        },
+        "unresolved_region_32": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0026,
+          "node": "Tree_front_east",
+          "node_coverage": 0.6733,
+          "node_purity": 0.0728,
+          "independent": false
+        },
+        "vegetation_004": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Court_shrub_east",
+          "node_coverage": 0.8921,
+          "node_purity": 0.563,
+          "independent": false
+        },
+        "vegetation_005": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.7715,
+          "node_purity": 0.0061,
+          "independent": false
+        },
+        "vegetation_006": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.006,
+          "node": "Ground_and_unresolved_scan",
+          "node_coverage": 0.7681,
+          "node_purity": 0.0031,
+          "independent": false
+        },
+        "vehicle_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_10",
+          "node_coverage": 1.0,
+          "node_purity": 0.7127,
+          "independent": false
+        },
+        "vehicle_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_01",
+          "node_coverage": 0.7793,
+          "node_purity": 1.0,
+          "independent": true
+        },
+        "vehicle_003": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_02",
+          "node_coverage": 0.957,
+          "node_purity": 0.872,
+          "independent": true
+        },
+        "vehicle_004": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_03",
+          "node_coverage": 0.9565,
+          "node_purity": 0.8705,
+          "independent": true
+        },
+        "vehicle_005": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_04",
+          "node_coverage": 0.9136,
+          "node_purity": 0.8492,
+          "independent": true
+        },
+        "vehicle_006": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_07",
+          "node_coverage": 0.9263,
+          "node_purity": 0.8405,
+          "independent": true
+        },
+        "vehicle_007": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_08",
+          "node_coverage": 0.9492,
+          "node_purity": 0.8138,
+          "independent": true
+        },
+        "vehicle_008": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_09",
+          "node_coverage": 0.6875,
+          "node_purity": 0.8669,
+          "independent": true
+        },
+        "vehicle_009": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_05",
+          "node_coverage": 0.9336,
+          "node_purity": 0.7916,
+          "independent": false
+        },
+        "vehicle_010": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Vehicle_06",
+          "node_coverage": 0.8921,
+          "node_purity": 0.7041,
+          "independent": false
+        }
+      },
+      "selected_nodes": {
+        "tree": "Tree_front_west",
+        "car": "Vehicle_07",
+        "building": "Building_main"
+      },
+      "first_seconds": 197.7748143672943,
+      "final_seconds": 328.47004532814026,
+      "blender_readback": {
+        "version": "5.2.3 LTS",
+        "render_profile_basic_pass": true,
+        "warnings": 35,
+        "scope": "Native Blender import, whole-scene mesh and material checks. Pairwise contacts, floating islands and UV-overlap estimates omitted for an open textured survey. Base color, UV sampling, and image content are checked separately."
+      },
+      "chute": {
+        "west": {
+          "source_hits": 14,
+          "model_hits": 14,
+          "mean_abs_vertical_error": 0.0
+        },
+        "east": {
+          "source_hits": 18,
+          "model_hits": 18,
+          "mean_abs_vertical_error": 0.0
+        }
+      }
+    },
+    "direct": {
+      "sha256": "665438c0aac86b47661da1e573df6ab91fc7a5c18615935ee05633f80d721d39",
+      "bytes": 17698856,
+      "triangles": 314591,
+      "mesh_nodes": 1,
+      "mesh_node_names": [
+        "Campus"
+      ],
+      "images": 26,
+      "materials": 26,
+      "instances": {
+        "basketball_hoop_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0003,
+          "independent": false
+        },
+        "building_main_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0031,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.2547,
+          "independent": false
+        },
+        "building_wing_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.1063,
+          "independent": false
+        },
+        "courtyard_ground_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0558,
+          "independent": false
+        },
+        "courtyard_wall_east_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.01,
+          "independent": false
+        },
+        "courtyard_wall_north_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0023,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0067,
+          "independent": false
+        },
+        "entrance_canopy_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0016,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0098,
+          "independent": false
+        },
+        "ground_court_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0167,
+          "independent": false
+        },
+        "north_boundary_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0036,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0024,
+          "independent": false
+        },
+        "north_yard_ground_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0008,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.017,
+          "independent": false
+        },
+        "playset_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0139,
+          "independent": false
+        },
+        "roadside_fixture_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0005,
+          "independent": false
+        },
+        "roof_court_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0031,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0248,
+          "independent": false
+        },
+        "roof_equipment_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "roof_equipment_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0007,
+          "independent": false
+        },
+        "roof_orange_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0317,
+          "independent": false
+        },
+        "roof_room_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0112,
+          "independent": false
+        },
+        "roof_service_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0053,
+          "independent": false
+        },
+        "roof_tank_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.004,
+          "independent": false
+        },
+        "south_awning_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0218,
+          "independent": false
+        },
+        "stair_canopy_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0007,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0049,
+          "independent": false
+        },
+        "street_east_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.1142,
+          "independent": false
+        },
+        "street_south_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0462,
+          "independent": false
+        },
+        "street_west_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0339,
+          "independent": false
+        },
+        "tent_001": {
+          "distance_p95": 0.0,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0035,
+          "independent": false
+        },
+        "traffic_fixture_001": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_002": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "traffic_fixture_003": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_004": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_005": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_006": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "traffic_fixture_007": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0037,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "traffic_fixture_008": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0073,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "tree_canopy_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0371,
+          "independent": false
+        },
+        "tree_canopy_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0469,
+          "independent": false
+        },
+        "tree_canopy_003": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0408,
+          "independent": false
+        },
+        "unresolved_region_12": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0068,
+          "independent": false
+        },
+        "unresolved_region_13": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0004,
+          "independent": false
+        },
+        "unresolved_region_21": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0007,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0131,
+          "independent": false
+        },
+        "unresolved_region_22": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0041,
+          "independent": false
+        },
+        "unresolved_region_23": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0051,
+          "independent": false
+        },
+        "unresolved_region_31": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0017,
+          "independent": false
+        },
+        "unresolved_region_32": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0026,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0073,
+          "independent": false
+        },
+        "vegetation_004": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0039,
+          "independent": false
+        },
+        "vegetation_005": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0019,
+          "independent": false
+        },
+        "vegetation_006": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.001,
+          "independent": false
+        },
+        "vehicle_001": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0022,
+          "independent": false
+        },
+        "vehicle_002": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0023,
+          "independent": false
+        },
+        "vehicle_003": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0032,
+          "independent": false
+        },
+        "vehicle_004": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0035,
+          "independent": false
+        },
+        "vehicle_005": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0031,
+          "independent": false
+        },
+        "vehicle_006": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0034,
+          "independent": false
+        },
+        "vehicle_007": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0036,
+          "independent": false
+        },
+        "vehicle_008": {
+          "distance_p95": 1e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0053,
+          "independent": false
+        },
+        "vehicle_009": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0039,
+          "independent": false
+        },
+        "vehicle_010": {
+          "distance_p95": 2e-06,
+          "within_005": 1.0,
+          "rgb_mae": 0.0,
+          "node": "Campus",
+          "node_coverage": 1.0,
+          "node_purity": 0.0028,
+          "independent": false
+        }
+      },
+      "selected_nodes": {
+        "tree": "Campus",
+        "car": "Campus",
+        "building": "Campus"
+      },
+      "first_seconds": 58.9429817199707,
+      "final_seconds": 161.703763961792,
+      "blender_readback": {
+        "version": "5.2.3 LTS",
+        "render_profile_basic_pass": true,
+        "warnings": 2,
+        "scope": "Native Blender import, whole-scene mesh and material checks. Pairwise contacts, floating islands and UV-overlap estimates omitted for an open textured survey. Base color, UV sampling, and image content are checked separately."
+      },
+      "chute": {
+        "west": {
+          "source_hits": 14,
+          "model_hits": 14,
+          "mean_abs_vertical_error": 0.0
+        },
+        "east": {
+          "source_hits": 18,
+          "model_hits": 18,
+          "mean_abs_vertical_error": 0.0
+        }
+      }
+    },
+    "quadric": {
+      "sha256": "3dcb058878f3fdfff1302b9f8feb4f6b41d9b8151f8e6474e0f4c58a65c0b0d3",
+      "bytes": 15182016,
+      "triangles": 157295,
+      "mesh_nodes": 1,
+      "mesh_node_names": [
+        "Campus scan"
+      ],
+      "images": 26,
+      "materials": 26,
+      "instances": {
+        "basketball_hoop_001": {
+          "distance_p95": 0.010488,
+          "within_005": 1.0,
+          "rgb_mae": 1.7915,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0003,
+          "independent": false
+        },
+        "building_main_001": {
+          "distance_p95": 0.012444,
+          "within_005": 1.0,
+          "rgb_mae": 0.7464,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.2547,
+          "independent": false
+        },
+        "building_wing_002": {
+          "distance_p95": 0.013529,
+          "within_005": 1.0,
+          "rgb_mae": 0.7534,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.1063,
+          "independent": false
+        },
+        "courtyard_ground_001": {
+          "distance_p95": 0.014281,
+          "within_005": 1.0,
+          "rgb_mae": 0.4106,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0558,
+          "independent": false
+        },
+        "courtyard_wall_east_001": {
+          "distance_p95": 0.013213,
+          "within_005": 1.0,
+          "rgb_mae": 0.5975,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.01,
+          "independent": false
+        },
+        "courtyard_wall_north_001": {
+          "distance_p95": 0.012808,
+          "within_005": 1.0,
+          "rgb_mae": 0.981,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0067,
+          "independent": false
+        },
+        "entrance_canopy_001": {
+          "distance_p95": 0.01289,
+          "within_005": 1.0,
+          "rgb_mae": 0.4136,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0098,
+          "independent": false
+        },
+        "ground_court_001": {
+          "distance_p95": 0.011322,
+          "within_005": 1.0,
+          "rgb_mae": 0.2508,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0167,
+          "independent": false
+        },
+        "north_boundary_001": {
+          "distance_p95": 0.012995,
+          "within_005": 1.0,
+          "rgb_mae": 0.7661,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0024,
+          "independent": false
+        },
+        "north_yard_ground_001": {
+          "distance_p95": 0.011869,
+          "within_005": 1.0,
+          "rgb_mae": 0.3665,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.017,
+          "independent": false
+        },
+        "playset_001": {
+          "distance_p95": 0.013263,
+          "within_005": 1.0,
+          "rgb_mae": 1.3288,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0139,
+          "independent": false
+        },
+        "roadside_fixture_001": {
+          "distance_p95": 0.014808,
+          "within_005": 1.0,
+          "rgb_mae": 0.4523,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0005,
+          "independent": false
+        },
+        "roof_court_002": {
+          "distance_p95": 0.011929,
+          "within_005": 1.0,
+          "rgb_mae": 0.4886,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0248,
+          "independent": false
+        },
+        "roof_equipment_001": {
+          "distance_p95": 0.011193,
+          "within_005": 1.0,
+          "rgb_mae": 2.285,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "roof_equipment_002": {
+          "distance_p95": 0.012769,
+          "within_005": 1.0,
+          "rgb_mae": 1.1185,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0007,
+          "independent": false
+        },
+        "roof_orange_002": {
+          "distance_p95": 0.011508,
+          "within_005": 1.0,
+          "rgb_mae": 0.4139,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0317,
+          "independent": false
+        },
+        "roof_room_002": {
+          "distance_p95": 0.01229,
+          "within_005": 1.0,
+          "rgb_mae": 0.6877,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0112,
+          "independent": false
+        },
+        "roof_service_001": {
+          "distance_p95": 0.011176,
+          "within_005": 1.0,
+          "rgb_mae": 0.8532,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0053,
+          "independent": false
+        },
+        "roof_tank_001": {
+          "distance_p95": 0.014429,
+          "within_005": 1.0,
+          "rgb_mae": 1.5947,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.004,
+          "independent": false
+        },
+        "south_awning_001": {
+          "distance_p95": 0.011914,
+          "within_005": 1.0,
+          "rgb_mae": 0.3276,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0218,
+          "independent": false
+        },
+        "stair_canopy_001": {
+          "distance_p95": 0.011527,
+          "within_005": 1.0,
+          "rgb_mae": 0.66,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0049,
+          "independent": false
+        },
+        "street_east_001": {
+          "distance_p95": 0.011508,
+          "within_005": 1.0,
+          "rgb_mae": 0.2031,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.1142,
+          "independent": false
+        },
+        "street_south_001": {
+          "distance_p95": 0.012565,
+          "within_005": 1.0,
+          "rgb_mae": 0.2363,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0462,
+          "independent": false
+        },
+        "street_west_001": {
+          "distance_p95": 0.011324,
+          "within_005": 1.0,
+          "rgb_mae": 0.1641,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0339,
+          "independent": false
+        },
+        "tent_001": {
+          "distance_p95": 0.01296,
+          "within_005": 1.0,
+          "rgb_mae": 0.4237,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0035,
+          "independent": false
+        },
+        "traffic_fixture_001": {
+          "distance_p95": 0.01268,
+          "within_005": 1.0,
+          "rgb_mae": 2.2262,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_002": {
+          "distance_p95": 0.011564,
+          "within_005": 1.0,
+          "rgb_mae": 1.5895,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "traffic_fixture_003": {
+          "distance_p95": 0.012358,
+          "within_005": 1.0,
+          "rgb_mae": 1.0692,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_004": {
+          "distance_p95": 0.013196,
+          "within_005": 1.0,
+          "rgb_mae": 1.533,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_005": {
+          "distance_p95": 0.014335,
+          "within_005": 1.0,
+          "rgb_mae": 2.1883,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0001,
+          "independent": false
+        },
+        "traffic_fixture_006": {
+          "distance_p95": 0.009223,
+          "within_005": 1.0,
+          "rgb_mae": 0.7814,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "traffic_fixture_007": {
+          "distance_p95": 0.012497,
+          "within_005": 1.0,
+          "rgb_mae": 0.9577,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "traffic_fixture_008": {
+          "distance_p95": 0.00705,
+          "within_005": 1.0,
+          "rgb_mae": 1.1196,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0,
+          "independent": false
+        },
+        "tree_canopy_001": {
+          "distance_p95": 0.013698,
+          "within_005": 1.0,
+          "rgb_mae": 0.62,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0371,
+          "independent": false
+        },
+        "tree_canopy_002": {
+          "distance_p95": 0.012973,
+          "within_005": 1.0,
+          "rgb_mae": 0.7432,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0469,
+          "independent": false
+        },
+        "tree_canopy_003": {
+          "distance_p95": 0.014311,
+          "within_005": 1.0,
+          "rgb_mae": 0.8617,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0408,
+          "independent": false
+        },
+        "unresolved_region_12": {
+          "distance_p95": 0.012817,
+          "within_005": 1.0,
+          "rgb_mae": 0.6974,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0068,
+          "independent": false
+        },
+        "unresolved_region_13": {
+          "distance_p95": 0.014536,
+          "within_005": 1.0,
+          "rgb_mae": 0.925,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0004,
+          "independent": false
+        },
+        "unresolved_region_21": {
+          "distance_p95": 0.013005,
+          "within_005": 1.0,
+          "rgb_mae": 0.7272,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0131,
+          "independent": false
+        },
+        "unresolved_region_22": {
+          "distance_p95": 0.013146,
+          "within_005": 1.0,
+          "rgb_mae": 0.4722,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0041,
+          "independent": false
+        },
+        "unresolved_region_23": {
+          "distance_p95": 0.015852,
+          "within_005": 1.0,
+          "rgb_mae": 0.8254,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0051,
+          "independent": false
+        },
+        "unresolved_region_31": {
+          "distance_p95": 0.013048,
+          "within_005": 1.0,
+          "rgb_mae": 0.1577,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0017,
+          "independent": false
+        },
+        "unresolved_region_32": {
+          "distance_p95": 0.014229,
+          "within_005": 1.0,
+          "rgb_mae": 0.7814,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0073,
+          "independent": false
+        },
+        "vegetation_004": {
+          "distance_p95": 0.013693,
+          "within_005": 1.0,
+          "rgb_mae": 1.1232,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0039,
+          "independent": false
+        },
+        "vegetation_005": {
+          "distance_p95": 0.015414,
+          "within_005": 1.0,
+          "rgb_mae": 1.0578,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0019,
+          "independent": false
+        },
+        "vegetation_006": {
+          "distance_p95": 0.014075,
+          "within_005": 1.0,
+          "rgb_mae": 0.8208,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.001,
+          "independent": false
+        },
+        "vehicle_001": {
+          "distance_p95": 0.013247,
+          "within_005": 1.0,
+          "rgb_mae": 1.8219,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0022,
+          "independent": false
+        },
+        "vehicle_002": {
+          "distance_p95": 0.013135,
+          "within_005": 1.0,
+          "rgb_mae": 1.64,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0023,
+          "independent": false
+        },
+        "vehicle_003": {
+          "distance_p95": 0.012685,
+          "within_005": 1.0,
+          "rgb_mae": 2.0868,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0032,
+          "independent": false
+        },
+        "vehicle_004": {
+          "distance_p95": 0.013362,
+          "within_005": 1.0,
+          "rgb_mae": 1.409,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0035,
+          "independent": false
+        },
+        "vehicle_005": {
+          "distance_p95": 0.013349,
+          "within_005": 1.0,
+          "rgb_mae": 1.6934,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0031,
+          "independent": false
+        },
+        "vehicle_006": {
+          "distance_p95": 0.01382,
+          "within_005": 1.0,
+          "rgb_mae": 0.8053,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0034,
+          "independent": false
+        },
+        "vehicle_007": {
+          "distance_p95": 0.012425,
+          "within_005": 1.0,
+          "rgb_mae": 1.3374,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0036,
+          "independent": false
+        },
+        "vehicle_008": {
+          "distance_p95": 0.013774,
+          "within_005": 1.0,
+          "rgb_mae": 0.6901,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0053,
+          "independent": false
+        },
+        "vehicle_009": {
+          "distance_p95": 0.01357,
+          "within_005": 1.0,
+          "rgb_mae": 1.4767,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0039,
+          "independent": false
+        },
+        "vehicle_010": {
+          "distance_p95": 0.014397,
+          "within_005": 1.0,
+          "rgb_mae": 1.0602,
+          "node": "Campus scan",
+          "node_coverage": 1.0,
+          "node_purity": 0.0028,
+          "independent": false
+        }
+      },
+      "selected_nodes": {
+        "tree": "Campus scan",
+        "car": "Campus scan",
+        "building": "Campus scan"
+      },
+      "first_seconds": 133.07673501968384,
+      "final_seconds": 300.0825939178467,
+      "blender_readback": {
+        "version": "5.2.3 LTS",
+        "render_profile_basic_pass": true,
+        "warnings": 3,
+        "scope": "Native Blender import, whole-scene mesh and material checks. Pairwise contacts, floating islands and UV-overlap estimates omitted for an open textured survey. Base color, UV sampling, and image content are checked separately."
+      },
+      "chute": {
+        "west": {
+          "source_hits": 14,
+          "model_hits": 14,
+          "mean_abs_vertical_error": 0.004806
+        },
+        "east": {
+          "source_hits": 18,
+          "model_hits": 18,
+          "mean_abs_vertical_error": 0.005968
+        }
+      }
+    }
+  },
+  "summary": {
+    "buildings": {
+      "guided": {
+        "scored_single_nodes": 2,
+        "source_regions": 2,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.002
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 2,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.002
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 2,
+        "median_distance_p95": 0.012986,
+        "median_rgb_mae": 0.75
+      }
+    },
+    "canopy": {
+      "guided": {
+        "scored_single_nodes": 1,
+        "source_regions": 3,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 0.013698,
+        "median_rgb_mae": 0.743
+      }
+    },
+    "low_vegetation": {
+      "guided": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 0.014075,
+        "median_rgb_mae": 1.058
+      }
+    },
+    "vehicles": {
+      "guided": {
+        "scored_single_nodes": 7,
+        "source_regions": 10,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 10,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 10,
+        "median_distance_p95": 0.013355,
+        "median_rgb_mae": 1.443
+      }
+    },
+    "playset": {
+      "guided": {
+        "scored_single_nodes": 1,
+        "source_regions": 1,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 0.013263,
+        "median_rgb_mae": 1.329
+      }
+    },
+    "roof_structures": {
+      "guided": {
+        "scored_single_nodes": 3,
+        "source_regions": 6,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 6,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 6,
+        "median_distance_p95": 0.011899,
+        "median_rgb_mae": 0.986
+      }
+    },
+    "roof_court": {
+      "guided": {
+        "scored_single_nodes": 1,
+        "source_regions": 1,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.001
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.003
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 0.011929,
+        "median_rgb_mae": 0.489
+      }
+    },
+    "shelters": {
+      "guided": {
+        "scored_single_nodes": 0,
+        "source_regions": 4,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 4,
+        "median_distance_p95": 0.0,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 4,
+        "median_distance_p95": 0.012402,
+        "median_rgb_mae": 0.419
+      }
+    },
+    "boundaries": {
+      "guided": {
+        "scored_single_nodes": 1,
+        "source_regions": 3,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.002
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.002
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 3,
+        "median_distance_p95": 0.012995,
+        "median_rgb_mae": 0.766
+      }
+    },
+    "traffic": {
+      "guided": {
+        "scored_single_nodes": 0,
+        "source_regions": 8,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 8,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 8,
+        "median_distance_p95": 0.012427,
+        "median_rgb_mae": 1.326
+      }
+    },
+    "roadside": {
+      "guided": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 0.014808,
+        "median_rgb_mae": 0.452
+      }
+    },
+    "hoop": {
+      "guided": {
+        "scored_single_nodes": 1,
+        "source_regions": 1,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 1,
+        "median_distance_p95": 0.010488,
+        "median_rgb_mae": 1.792
+      }
+    },
+    "ground": {
+      "guided": {
+        "scored_single_nodes": 2,
+        "source_regions": 6,
+        "median_distance_p95": 0.0,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 6,
+        "median_distance_p95": 1e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 6,
+        "median_distance_p95": 0.011688,
+        "median_rgb_mae": 0.244
+      }
+    },
+    "uncertain": {
+      "guided": {
+        "scored_single_nodes": 0,
+        "source_regions": 7,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "direct": {
+        "scored_single_nodes": 0,
+        "source_regions": 7,
+        "median_distance_p95": 2e-06,
+        "median_rgb_mae": 0.0
+      },
+      "quadric": {
+        "scored_single_nodes": 0,
+        "source_regions": 7,
+        "median_distance_p95": 0.013146,
+        "median_rgb_mae": 0.727
+      }
+    }
+  },
+  "paint": {
+    "source": {
+      "pixels": 20972
+    },
+    "guided": {
+      "pixels": 20972,
+      "iou": 1.0
+    },
+    "direct": {
+      "pixels": 20972,
+      "iou": 1.0
+    },
+    "quadric": {
+      "pixels": 20992,
+      "iou": 0.99781
+    }
+  }
+}

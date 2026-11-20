@@ -1,4 +1,4 @@
 interface:
   display_name: "场景建模与成片"
-  short_description: "从实拍重建构件与表面细节，校核连接，按需交付 three.js 网页或 Remotion 宣传片"
+  short_description: "用实拍、点云或 DSM 重建地物实例，校核形体与贴图，交付模型、网页或宣传片"
   default_prompt: "使用 $dsm-to-threejs，依据我提供的场景、参考资料和目标选择路线，复用已有模型，按需建模、制作网页或拍摄成片，并验证交付。"
