@@ -1,0 +1,169 @@
+{
+  "final_glb_sha256": "6c798eb7f17d44487c7552896a30e794ed90db0512dcabe74e2f58579451e429",
+  "reports_match_glb": true,
+  "scope": {
+    "GLB_nodes": 182,
+    "triangles": 252944,
+    "orphan_nodes": 0,
+    "zero_area": 0,
+    "rings": 2,
+    "radial_hits_24": {
+      "ring_hexi": 24,
+      "ring_island": 24
+    },
+    "both_ring_centres_open": true,
+    "central_eyeheight_in_ring": 0,
+    "central_eyeheight_samples": 98,
+    "ring_vertical_rise": {
+      "ring_hexi": 84.86541819572449,
+      "ring_island": 84.86541819572449
+    },
+    "approximate_plane_tilt_deg": {
+      "ring_hexi": 35.08584526888711,
+      "ring_island": 35.087471587678706
+    },
+    "stays": 36,
+    "sides": {
+      "ring_hexi_left": 9,
+      "ring_hexi_right": 9,
+      "ring_island_left": 9,
+      "ring_island_right": 9
+    },
+    "stay_top_inside_tower": 36,
+    "stay_lower_inside_deck": 36,
+    "lateral_stay_to_outer_edge_range": [
+      0.08899119450817494,
+      0.09124125074355405
+    ],
+    "all_stays_on_respective_side": true,
+    "materials": 17,
+    "images": [
+      {
+        "name": "pavement-marks",
+        "size": [
+          512,
+          768
+        ],
+        "encoded": "d27fb08d128e5763431ae587286179c69c95373af54e10c9d4c13d02a300eb40",
+        "pixels": "6ef7f58f8d53f3a27d48730b6464a44f465644e4fc6f5c94fe86da60e7bad4cf"
+      },
+      {
+        "name": "sign-face",
+        "size": [
+          1536,
+          464
+        ],
+        "encoded": "d77c7d168c1bedc6faa6dd4b413b33d5feb18feba6b6ba56736fd8daa28790d9",
+        "pixels": "5784b58694dc585c48bbe634f92a3fd34b06e5a240a31924ed1cc87485796808"
+      }
+    ],
+    "bearing_top_to_girder_vertical_gaps": [
+      -0.008008999999999489,
+      -0.008008999999999489,
+      -0.00779799999999975,
+      -0.005930999999999909
+    ]
+  },
+  "topology": {
+    "boundaries": 0,
+    "multi_face_edges": 0,
+    "inconsistent_two_face_winding": 0,
+    "duplicate_triangles": 0
+  },
+  "transformed_mesh_nodes": 182,
+  "shore_transition_contacts": {
+    "hexi": {
+      "paving_on_transition": {
+        "overlapping_interior_probes": 16,
+        "at_zero_within_2e_4": 16,
+        "positive_gap_max": 3.8146972691777137e-07,
+        "range": [
+          3.8146972691777137e-07,
+          3.8146972691777137e-07
+        ]
+      },
+      "transition_on_cap": {
+        "overlapping_interior_probes": 8,
+        "at_zero_within_2e_4": 8,
+        "positive_gap_max": -1.9073486257070726e-07,
+        "range": [
+          -1.9073486257070726e-07,
+          -1.9073486257070726e-07
+        ]
+      }
+    },
+    "island": {
+      "paving_on_transition": {
+        "overlapping_interior_probes": 16,
+        "at_zero_within_2e_4": 16,
+        "positive_gap_max": -1.7166137844526475e-08,
+        "range": [
+          -1.7166137844526475e-08,
+          -1.7166137844526475e-08
+        ]
+      },
+      "transition_on_cap": {
+        "overlapping_interior_probes": 8,
+        "at_zero_within_2e_4": 8,
+        "positive_gap_max": -3.051757824223955e-08,
+        "range": [
+          -3.051757824223955e-08,
+          -3.051757824223955e-08
+        ]
+      }
+    }
+  },
+  "walkable_camera": {
+    "eye_minus_actual_girder_top_m": 1.650985,
+    "near_mean": 3.9839246974938907,
+    "far_mean": 5.533378128616381,
+    "withheld_inner_abs_max": 4.99669239250278
+  },
+  "alternate_camera": {
+    "usable_pedestrian_camera": false,
+    "reason": "eye is 0.0782 m inside the real GLB girder, only useful for ring-only projection",
+    "near_mean": 3.9465306488782947,
+    "far_mean": 4.170326523410455,
+    "withheld_inner_abs_max": 4.315325248070508
+  },
+  "photo_external_boundary": {
+    "bank": {
+      "near": {
+        "mean_px": 5.901259229181932,
+        "max_px": 10.198039027185569
+      },
+      "far": {
+        "mean_px": 2.2612038749637415,
+        "max_px": 5.0
+      }
+    },
+    "air": {
+      "near": {
+        "mean_px": 1.25712973861329,
+        "max_px": 2.8284271247461903
+      },
+      "far": {
+        "mean_px": 1.6856254813582283,
+        "max_px": 5.385164807134504
+      }
+    },
+    "deck": {
+      "near": {
+        "mean_px": 4.201491814426445,
+        "max_px": 7.0
+      },
+      "far": {
+        "mean_px": 2.8633899812498247,
+        "max_px": 11.180339887498949
+      }
+    }
+  },
+  "independent_inner_edge_mean_and_max_px": [
+    1.1943219404630554,
+    2.69239250275632
+  ],
+  "limitations": [
+    "Photo comparison uses estimated camera intrinsics and poses. Distances in pixels describe these views.",
+    "Geometric supports were tested only at documented local probes. No structural capacity, live-load simulation or field survey."
+  ]
+}
