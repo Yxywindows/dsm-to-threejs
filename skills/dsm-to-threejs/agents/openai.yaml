@@ -1,0 +1,4 @@
+interface:
+  display_name: "场景建模与成片"
+  short_description: "按证据重建三维场景，按需交付 three.js 网页或 Remotion 宣传片"
+  default_prompt: "使用 $dsm-to-threejs，依据我提供的场景、参考资料和目标选择路线，复用已有模型，按需建模、制作网页或拍摄成片，并验证交付。"

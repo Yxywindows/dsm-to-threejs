@@ -1,0 +1,18 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "title": null,
+  "titlePosition": "bottom-right",
+  "music": null,
+  "shots": [
+    {
+      "file": "shots/first.mp4",
+      "frames": 48
+    },
+    {
+      "file": "shots/second.mp4",
+      "frames": 72
+    }
+  ]
+}
